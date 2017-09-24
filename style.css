@@ -11,3 +11,87 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, orange, white, one-column, two-columns, three-columns, right-sidebar,left-sidebar, responsive-layout, custom-background, custom-header, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, translation-ready, custom-colors
 Text Domain:  Openstrap-child
 */
+
+/*@media(min-width: 1250px){
+    #menuContainer{
+        width: 1250px;
+    }
+}
+@media(max-width: 1249px){
+    #menuContainer{
+        width: 700px;
+    }
+}
+*/
+
+#menuContainer{
+    /*width: 1240px;*/
+}
+#headerSlider{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+/*#menuFooterContainer{
+    width: 1240px;
+}*/
+
+.site-title-little{
+    font-family: 'Ubuntu', sans-serif;;
+    font-size:14pt;
+    text-align:center;
+    /*padding-top: 10px;*/
+
+}
+.site-title-little a{
+    color: #1e73be !important;
+}
+.site-title-little span{
+    font-family: 'Ubuntu', sans-serif;;
+    font-size:8pt;
+    text-align:center;
+    padding-top:5px;
+    display:block;
+
+}
+
+.site-title{
+		font-size:20pt;
+}
+
+.widget ul li, .footer-widget ul li {
+	line-height: 1.4;
+}
+/*
+.cat-post-widget img{
+	float:none !important;
+	display:block !important;
+	margin: 5px 10px 5px 0;
+}*/
+
+@media(min-width: 800px){
+.site-title{
+		/*font-family: 'Ubuntu', sans-serif;*/
+		font-size:24pt;
+		text-align:center;
+		padding-top: 10px;		
+}
+}
+
+@media(max-width: 799px){
+.site-title{
+		/*font-family: 'Ubuntu', sans-serif;*/
+		font-size:20pt;
+		text-align:center;
+		/*padding-top: 10px;*/		
+}
+}
+
+.site-title span{
+		/*font-family: 'Ubuntu', sans-serif;*/
+		font-size:15pt;
+		text-align:center;
+		padding-top:5px;
+		display:block;
+		
+}
