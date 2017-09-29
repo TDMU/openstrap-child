@@ -12,6 +12,9 @@ Tags: light, orange, white, one-column, two-columns, three-columns, right-sideba
 Text Domain:  Openstrap-child
 */
 
+/* old way is below
+@import url("../openstrap/style.css");
+*/
 /*@media(min-width: 1250px){
     #menuContainer{
         width: 1250px;

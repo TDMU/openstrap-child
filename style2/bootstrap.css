@@ -1,4 +1,6 @@
+@import url("../openstrap/css/style2/bootstrap.css");
+
 @media (min-width: 1280px) {
   .container {
     width: 1250px;
-  }
+}

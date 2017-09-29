@@ -1,3 +1,5 @@
+@import url("../openstrap/css/bootstrap.css");
+
 @media (min-width: 1270px) {
 .container {
     max-width: 1250px;
