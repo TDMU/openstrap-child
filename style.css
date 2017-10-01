@@ -12,6 +12,31 @@ Tags: light, orange, white, one-column, two-columns, three-columns, right-sideba
 Text Domain:  Openstrap-child
 */
 
+@media (min-width: 1280px) {
+.container {
+    width: 1250px !important;
+}
+}
+
+@media (min-width: 992px) {
+.col-md-8 {
+    width: 75% !important;
+}
+}
+
+@media (min-width: 992px) {
+.col-md-4 {
+    width: 25% !important;
+}
+}
+
+#header-top {
+    height: 25px !important;
+    max-height: 25px !important;
+}
+
+
+/*below is old version - mostly wrong or deprecated!!*/
 /* old way is below
 @import url("../openstrap/style.css");
 */
@@ -40,7 +65,7 @@ Text Domain:  Openstrap-child
 }*/
 
 .site-title-little{
-    font-family: 'Ubuntu', sans-serif;;
+    font-family: 'Ubuntu', sans-serif;
     font-size:14pt;
     text-align:center;
     /*padding-top: 10px;*/
@@ -50,7 +75,7 @@ Text Domain:  Openstrap-child
     color: #1e73be !important;
 }
 .site-title-little span{
-    font-family: 'Ubuntu', sans-serif;;
+    font-family: 'Ubuntu', sans-serif;
     font-size:8pt;
     text-align:center;
     padding-top:5px;
