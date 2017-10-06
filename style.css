@@ -30,6 +30,12 @@ div[role="content"].col-md-8 {
 }
 }
 
+@media (min-width: 992px) {
+.col-md-8.hidden-xs {
+    width: 25% !important;
+}
+}
+
 #header-top {
     height: 25px !important;
     max-height: 25px !important;
