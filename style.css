@@ -19,13 +19,13 @@ Text Domain:  Openstrap-child
 }
 
 @media (min-width: 992px) {
-.col-md-8 {
+div[role="content"].col-md-8 {
     width: 75% !important;
 }
 }
 
 @media (min-width: 992px) {
-.col-md-4 {
+.col-md-4 .sidebar-right {
     width: 25% !important;
 }
 }
