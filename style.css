@@ -41,6 +41,29 @@ div[role="content"].col-md-8 {
     max-height: 25px !important;
 }
 
+@media(min-width: 800px){
+.site-title{
+		font-size:24pt;
+		text-align:center;
+		padding-top: 10px;		
+}
+}
+
+@media(max-width: 799px){
+.site-title{
+		font-size:20pt;
+		text-align:center;
+		/*padding-top: 10px;*/		
+}
+}
+
+.site-title span{
+		font-size:15pt;
+		text-align:center;
+		padding-top:5px;
+		display:block;
+		
+}
 
 /*below is old version - mostly wrong or deprecated!!*/
 /* old way is below
@@ -103,29 +126,3 @@ div[role="content"].col-md-8 {
 	margin: 5px 10px 5px 0;
 }*/
 
-@media(min-width: 800px){
-.site-title{
-		/*font-family: 'Ubuntu', sans-serif;*/
-		font-size:24pt;
-		text-align:center;
-		padding-top: 10px;		
-}
-}
-
-@media(max-width: 799px){
-.site-title{
-		/*font-family: 'Ubuntu', sans-serif;*/
-		font-size:20pt;
-		text-align:center;
-		/*padding-top: 10px;*/		
-}
-}
-
-.site-title span{
-		/*font-family: 'Ubuntu', sans-serif;*/
-		font-size:15pt;
-		text-align:center;
-		padding-top:5px;
-		display:block;
-		
-}
