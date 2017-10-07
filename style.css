@@ -65,6 +65,15 @@ div[role="content"].col-md-8 {
 		
 }
 
+.widget_search {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.header-widget {
+    display: block !important;
+}
+
 /*below is old version - mostly wrong or deprecated!!*/
 /* old way is below
 @import url("../openstrap/style.css");
