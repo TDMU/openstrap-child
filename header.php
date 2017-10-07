@@ -101,7 +101,18 @@
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<small><?php bloginfo( 'description' ); ?></small>
 					<?php endif; ?>					
-				  </div>	  
+				  </div>
+
+                  <div class="col-md-7 col-lg-7 hidden-xs hidden-sm">
+										
+					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+					<?php //bloginfo( 'name' ); ?>
+					репмно╡кэяэйхи депфюбмхи ледхвмхи см╡бепяхрер <div>ЁЛЕМЁ ╡.ъ. цНПАЮВЕБЯЭЙНЦН</div>
+					</a></h1>
+					<small><?php //bloginfo( 'description' ); ?></small>
+									
+				  </div>
+
 				  <div class="col-md-8 hidden-xs">
 					<div class="pull-right">
 						<?php if ( is_active_sidebar( 'openstrap_header_right' ) ) : ?>
