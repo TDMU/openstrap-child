@@ -94,7 +94,7 @@
 		<div class="header-body">		
 			<div class="container">
 				 <div class="row logo-row">
-				  <div class="col-md-2 pull-left">
+				  <div class="col-sm-2 col-md-2 hidden-xs">
 					<?php if ( $site_logo != '' ) : ?>
 					<a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php echo esc_url($site_logo); ?>" alt="<?php bloginfo('description'); ?>" class="img-responsive" /></a>
 					<?php elseif($site_logo == '' || !isset($site_logo)): ?>
@@ -103,14 +103,19 @@
 					<?php endif; ?>					
 				  </div>
 
+                 <div class="hidden-md hidden-lg col-xs-12 col-sm-6">
+                     <h1 class="site-title-little"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                             <?php //bloginfo( 'name' ); ?>
+                             репмно╡кэяэйхи депфюбмхи ледхвмхи см╡бепяхрер <div>ЁЛЕМЁ ╡.ъ. цНПАЮВЕБЯЭЙНЦН</div>
+                         </a></h1>
+                     <small><?php //bloginfo( 'description' ); ?></small>
+                 </div>
                   <div class="col-md-7 col-lg-7 hidden-xs hidden-sm">
-										
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php //bloginfo( 'name' ); ?>
 					репмно╡кэяэйхи депфюбмхи ледхвмхи см╡бепяхрер <div>ЁЛЕМЁ ╡.ъ. цНПАЮВЕБЯЭЙНЦН</div>
 					</a></h1>
 					<small><?php //bloginfo( 'description' ); ?></small>
-									
 				  </div>
 
 				  <div class="col-md-8 hidden-xs">
