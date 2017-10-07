@@ -94,7 +94,7 @@
 		<div class="header-body">		
 			<div class="container">
 				 <div class="row logo-row">
-				  <div class="col-md-4 pull-left">
+				  <div class="col-md-2 pull-left">
 					<?php if ( $site_logo != '' ) : ?>
 					<a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php echo esc_url($site_logo); ?>" alt="<?php bloginfo('description'); ?>" class="img-responsive" /></a>
 					<?php elseif($site_logo == '' || !isset($site_logo)): ?>
