@@ -174,5 +174,14 @@
     </div>
 
     <div class="container" id="main-container">
+    
+    <div class="col-md-12" >
+    <?php
+        if ( is_front_page() )
+        echo do_shortcode('[crellyslider alias="main_page_slider"]');
+    ?>
+    </div>
+    <p>
+
 	<div class="row" id="main-row">
 
