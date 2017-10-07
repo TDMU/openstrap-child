@@ -25,7 +25,7 @@ div[role="content"].col-md-8 {
 }
 
 @media (min-width: 992px) {
-.col-md-4 .sidebar-right {
+.col-md-4.sidebar-right {
     width: 25% !important;
 }
 }
@@ -74,6 +74,24 @@ div[role="content"].col-md-8 {
     display: block !important;
 }
 
+.site-title-little{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:14pt;
+    text-align:center;
+
+}
+.site-title-little a{
+    color: #1e73be !important;
+}
+.site-title-little span{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:8pt;
+    text-align:center;
+    padding-top:5px;
+    display:block;
+
+}
+
 /*below is old version - mostly wrong or deprecated!!*/
 /* old way is below
 @import url("../openstrap/style.css");
@@ -102,24 +120,7 @@ div[role="content"].col-md-8 {
     width: 1240px;
 }*/
 
-.site-title-little{
-    font-family: 'Ubuntu', sans-serif;
-    font-size:14pt;
-    text-align:center;
-    /*padding-top: 10px;*/
 
-}
-.site-title-little a{
-    color: #1e73be !important;
-}
-.site-title-little span{
-    font-family: 'Ubuntu', sans-serif;
-    font-size:8pt;
-    text-align:center;
-    padding-top:5px;
-    display:block;
-
-}
 
 .site-title{
 		font-size:20pt;
