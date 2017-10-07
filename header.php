@@ -52,6 +52,70 @@
 		<div id="header-top">
 			<div class="container hidden-xs">
 				<div class="pull-left header-contact" id="header-top-container">
+
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 hidden-xs hidden-sm">
+                                    <?php function langFlag ($lang){
+
+                                        $url=$_SERVER["REQUEST_URI"];
+                                        $findlang   = '/';
+                                        $pos = strpos($url, $findlang,1);
+                                        if ($pos === false) {
+                                            //echo "Строка '$findme' не найдена в строке '$mystring'";
+                                            if($lang=="ua"){
+                                                $langUrl= $url;
+                                            }
+                                            elseif($lang=="en")
+                                            {
+                                                $langUrl="/en/";   //"http://old.tdmu.edu.ua/eng/general/index.php";   //"/en/";
+                                            }
+                                            else {
+                                                $langUrl= $url.$lang."/";
+                                            }
+                                        } else {
+                                            //echo "Строка '$findme' найдена в строке '$mystring'";
+                                            //echo " в позиции $pos";
+
+                                            if($lang=="ua"){
+
+                                                $url=substr_replace($url, '', 0, $pos);
+                                                $langUrl=$url;
+                                            }
+                                            elseif($lang=="en")
+                                            {
+                                                $langUrl="/en/";   //"http://old.tdmu.edu.ua/eng/general/index.php";   //"/en/";
+                                            }
+                                            else {
+                                                $len=strlen($url);
+                                                $url=substr_replace($url, $lang."/",  1, $pos);
+                                                $langUrl=$url;
+                                            }
+
+
+                                            //echo $langUrl;
+                                        }
+                                        return $langUrl;
+                                    }?>
+                                <span class="no_translate">
+                                    <a class="langFlag" href="<?php bloginfo('url'); echo langFlag ("ua"); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ua.png" alt="" class="img-responsive" /></a>
+                                    <a class="langFlag" href="<?php echo langFlag ("en"); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/en.png" alt="" class="img-responsive" /></a>
+
+                                </span>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+
+                                <span class="no_translate">
+                                    <a class="langFlag" href="<?php bloginfo('url'); echo langFlag ("ua"); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ua.png" alt="" class="img-responsive" /></a>
+                                    <a class="langFlag" href="<?php echo langFlag ("en"); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/en.png" alt="" class="img-responsive" /></a>
+
+                                   
+
+
+                                </span>
+
+                            </div>
+                        </div>
+
 				<?php if(!empty($header_contact_phone)):?>
 					<span><i class="icon-phone"></i> <?php echo $header_contact_phone;?></span>
 				<?php endif;?>

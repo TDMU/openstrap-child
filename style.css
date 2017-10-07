@@ -37,8 +37,8 @@ div[role="content"].col-md-8 {
 }
 
 #header-top {
-    height: 25px !important;
-    max-height: 25px !important;
+    height: 27px !important;
+    max-height: 27px !important;
 }
 
 @media(min-width: 800px){
@@ -90,6 +90,11 @@ div[role="content"].col-md-8 {
     padding-top:5px;
     display:block;
 
+}
+
+.langFlag {
+    display: inline-block;
+    padding: 0px;
 }
 
 /*below is old version - mostly wrong or deprecated!!*/
