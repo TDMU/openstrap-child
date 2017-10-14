@@ -97,6 +97,37 @@ div[role="content"].col-md-8 {
     padding: 0px;
 }
 
+#footer {
+    height: auto !important;
+}
+
+.footermenu ul {
+    padding: 0px;
+}
+
+.footermenu li {
+    display: inline-block;
+    width: 24%;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.footermenu li li {
+    display: block;
+    margin-left: 5px;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.footermenu li li a {
+   color: #044687; 
+/*    border-bottom: 0;
+    font-size: 12px;
+    text-decoration: none;*/
+}
+
 /*below is old version - mostly wrong or deprecated!!*/
 /* old way is below
 @import url("../openstrap/style.css");
