@@ -122,53 +122,6 @@ div[role="content"].col-md-8 {
 }
 
 .footermenu li li a {
-   color: #044687; 
-/*    border-bottom: 0;
-    font-size: 12px;
-    text-decoration: none;*/
+   color: #044687;
 }
-
-/*below is old version - mostly wrong or deprecated!!*/
-/* old way is below
-@import url("../openstrap/style.css");
-*/
-/*@media(min-width: 1250px){
-    #menuContainer{
-        width: 1250px;
-    }
-}
-@media(max-width: 1249px){
-    #menuContainer{
-        width: 700px;
-    }
-}
-*/
-
-#menuContainer{
-    /*width: 1240px;*/
-}
-#headerSlider{
-    margin-top: -20px;
-    margin-bottom: 20px;
-}
-
-/*#menuFooterContainer{
-    width: 1240px;
-}*/
-
-
-
-.site-title{
-		font-size:20pt;
-}
-
-.widget ul li, .footer-widget ul li {
-	line-height: 1.4;
-}
-/*
-.cat-post-widget img{
-	float:none !important;
-	display:block !important;
-	margin: 5px 10px 5px 0;
-}*/
 
