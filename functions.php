@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 function my_theme_enqueue_styles() {
 
 	$parent_style = 'parent-style'; // This is 'openstrap-style' for the Openstrap theme.

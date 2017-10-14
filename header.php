@@ -1,4 +1,4 @@
-<?php
+п»ї<?php
 /**
  * The Header for our theme.
  *
@@ -61,7 +61,7 @@
                                         $findlang   = '/';
                                         $pos = strpos($url, $findlang,1);
                                         if ($pos === false) {
-                                            //echo "Строка '$findme' не найдена в строке '$mystring'";
+                                            //echo "РЎС‚СЂРѕРєР° '$findme' РЅРµ РЅР°Р№РґРµРЅР° РІ СЃС‚СЂРѕРєРµ '$mystring'";
                                             if($lang=="ua"){
                                                 $langUrl= $url;
                                             }
@@ -73,8 +73,8 @@
                                                 $langUrl= $url.$lang."/";
                                             }
                                         } else {
-                                            //echo "Строка '$findme' найдена в строке '$mystring'";
-                                            //echo " в позиции $pos";
+                                            //echo "РЎС‚СЂРѕРєР° '$findme' РЅР°Р№РґРµРЅР° РІ СЃС‚СЂРѕРєРµ '$mystring'";
+                                            //echo " РІ РїРѕР·РёС†РёРё $pos";
 
                                             if($lang=="ua"){
 
@@ -170,14 +170,14 @@
                  <div class="hidden-md hidden-lg col-xs-12 col-sm-6">
                      <h1 class="site-title-little"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
                              <?php //bloginfo( 'name' ); ?>
-                             ТЕРНОПІЛЬСЬКИЙ ДЕРЖАВНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ <div>імені І.Я. Горбачевського</div>
+                             РўР•Р РќРћРџР†Р›Р¬РЎР¬РљРР™ Р”Р•Р Р–РђР’РќРР™ РњР•Р”РР§РќРР™ РЈРќР†Р’Р•Р РЎРРўР•Рў <div>С–РјРµРЅС– Р†.РЇ. Р“РѕСЂР±Р°С‡РµРІСЃСЊРєРѕРіРѕ</div>
                          </a></h1>
                      <small><?php //bloginfo( 'description' ); ?></small>
                  </div>
                   <div class="col-md-7 col-lg-7 hidden-xs hidden-sm">
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php //bloginfo( 'name' ); ?>
-					ТЕРНОПІЛЬСЬКИЙ ДЕРЖАВНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ <div>імені І.Я. Горбачевського</div>
+					РўР•Р РќРћРџР†Р›Р¬РЎР¬РљРР™ Р”Р•Р Р–РђР’РќРР™ РњР•Р”РР§РќРР™ РЈРќР†Р’Р•Р РЎРРўР•Рў <div>С–РјРµРЅС– Р†.РЇ. Р“РѕСЂР±Р°С‡РµРІСЃСЊРєРѕРіРѕ</div>
 					</a></h1>
 					<small><?php //bloginfo( 'description' ); ?></small>
 				  </div>
