@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * The template for displaying the footer.
  *
@@ -26,14 +26,22 @@
 		?>
 <div id="footer">
   <div class="container footer-nav ">	
-	<div class="pull-left">
+	<!-- <div class="pull-left"> -->
+    <div>
 	<?php 
-		wp_nav_menu( array( 'theme_location' => 'footer-menu', 'menu_class' => 'list-inline', 'depth' =>1, 'container' => false, 'fallback_cb' => false ) ); 
+//		wp_nav_menu( array( 'theme_location' => 'footer-menu', 'menu_class' => 'list-inline', 'depth' =>1, 'container' => false, 'fallback_cb' => false ) ); 
+    wp_nav_menu( array(
+        'theme_location' => 'primary',
+        'menu_class' => 'footermenu',
+        'depth' =>2,
+        'container' => false,
+        'fallback_cb' => false ) );
 	?>
 	</div>	
 
 	<div class="pull-right hidden-xs">
-	<p class="text-muted credit"><?php echo $copyrighttxt;?> <?php echo openstrap_get_branding();?> </p>
+	<p class="text-muted credit"><?php echo $copyrighttxt;?></p>
+    <p> У зв'язку з проведенням тестових робіт <br> цілісність та доступність розміщеної на сайті інформації не гарантується </p>
 	</div> 	
   </div>
 </div>
