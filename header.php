@@ -99,20 +99,13 @@
                                 <span class="no_translate">
                                     <a class="langFlag" href="<?php bloginfo('url'); echo langFlag ("ua"); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ua.png" alt="" class="img-responsive" /></a>
                                     <a class="langFlag" href="<?php echo langFlag ("en"); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/en.png" alt="" class="img-responsive" /></a>
-
                                 </span>
                             </div>
                             <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
-
                                 <span class="no_translate">
                                     <a class="langFlag" href="<?php bloginfo('url'); echo langFlag ("ua"); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ua.png" alt="" class="img-responsive" /></a>
                                     <a class="langFlag" href="<?php echo langFlag ("en"); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/en.png" alt="" class="img-responsive" /></a>
-
-                                   
-
-
                                 </span>
-
                             </div>
                         </div>
                         
@@ -168,17 +161,21 @@
 				  </div>
 
                  <div class="hidden-md hidden-lg col-xs-12 col-sm-6">
-                     <h1 class="site-title-little"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                             <?php //bloginfo( 'name' ); ?>
-                             ТЕРНОПІЛЬСЬКИЙ ДЕРЖАВНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ <div>імені І.Я. Горбачевського</div>
-                         </a></h1>
-                     <small><?php //bloginfo( 'description' ); ?></small>
+                    <h1 class="site-title-little">
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"> 
+                            <?php //bloginfo( 'name' ); ?>
+                            ТЕРНОПІЛЬСЬКИЙ ДЕРЖАВНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ <div>імені І.Я. Горбачевського</div>
+                        </a>
+                    </h1>
+                    <small><?php //bloginfo( 'description' ); ?></small>
                  </div>
                   <div class="col-md-7 col-lg-7 hidden-xs hidden-sm">
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					<?php //bloginfo( 'name' ); ?>
-					ТЕРНОПІЛЬСЬКИЙ ДЕРЖАВНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ <div>імені І.Я. Горбачевського</div>
-					</a></h1>
+					<h1 class="site-title">
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+                            <?php //bloginfo( 'name' ); ?>
+                            ТЕРНОПІЛЬСЬКИЙ ДЕРЖАВНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ <div>імені І.Я. Горбачевського</div>
+                        </a>
+                    </h1>
 					<small><?php //bloginfo( 'description' ); ?></small>
 				  </div>
 
