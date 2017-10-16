@@ -2,44 +2,49 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Openstrap\n"
 "POT-Creation-Date: 2013-08-11 16:45+0530\n"
-"PO-Revision-Date: 2013-08-11 16:46+0530\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2017-10-16 12:05+0300\n"
 "Language-Team: Opencodez Team\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.0.4\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: uk_UA\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:17
 msgid "This is somewhat embarrassing, isn&rsquo;t it?"
-msgstr ""
+msgstr "Це трохи незручно, чи не так?"
 
 #: 404.php:21
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
+"Здається, ми не можемо знайти те, що ви шукаєте. Можливо, пошук може "
+"допомогти."
 
 #: archive.php:30
 #, php-format
 msgid "Daily Archives: %s"
-msgstr ""
+msgstr "Архіви по днях  %s"
 
 #: archive.php:32
 #, php-format
 msgid "Monthly Archives: %s"
-msgstr ""
+msgstr "Архіви за місяць  %s"
 
 #: archive.php:34
 #, php-format
 msgid "Yearly Archives: %s"
-msgstr ""
+msgstr "Архіви по роках  %s"
 
 #: archive.php:36 inc/widgets/openstrap-archive-widget.php:31
 msgid "Archives"
-msgstr ""
+msgstr "Архіви за"
 
 #: author-box.php:20 author.php:52
 #, php-format
@@ -92,6 +97,8 @@ msgid ""
 "Apologies, but no results were found. Perhaps searching will help find a "
 "related post."
 msgstr ""
+"Просимо вибачення, але нічого не було знайдено. Можливо новий пошук допоможе "
+"знайти відповідну публікацію."
 
 #: content-page.php:18
 msgid "Pages:"
@@ -302,6 +309,11 @@ msgstr ""
 msgid "Tag Archives: %s"
 msgstr ""
 
+#: searchform.php:13
+#, php-format
+msgid "Search"
+msgstr "Пошук"
+
 #: inc/options.php:32
 msgid "Three"
 msgstr ""
@@ -480,6 +492,8 @@ msgstr ""
 #: inc/options.php:281
 msgid "Check to display Social Icons in Footer."
 msgstr ""
+"Увімкніть, щоб відображати піктограми соціальних мереж в нижньому "
+"колонтитулі."
 
 #: inc/options.php:287
 msgid "Facebook"
@@ -703,6 +717,8 @@ msgid ""
 "A monthly archive of your site&#8217;s posts. The look and feel has been "
 "altered to suit your theme."
 msgstr ""
+"Щомісячний архів публікацій вашого сайту. Зовнішній вигляд змінено "
+"відповідно до вашої теми."
 
 #: inc/widgets/openstrap-archive-widget.php:24
 msgid "Openstrap Archives"
@@ -806,7 +822,7 @@ msgstr ""
 #: page-templates/two-column-sidebar-left.php:23
 #: page-templates/two-column-sidebar-right.php:23
 msgid "No posts."
-msgstr ""
+msgstr "Немає записів."
 
 #: page-templates/full-width.php:26 page-templates/three-column.php:23
 #: page-templates/two-column-sidebar-left.php:24
