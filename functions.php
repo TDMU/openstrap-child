@@ -12,8 +12,8 @@ function my_theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
-function child_theme_slug_setup() {
-    load_child_theme_textdomain( 'parent-theme-slug', get_stylesheet_directory() . '/languages' );
+function openstrap_child_theme_setup() {
+    load_child_theme_textdomain( 'openstrap', get_stylesheet_directory() . '/languages' );
 }
-add_action( 'after_setup_theme', 'child_theme_slug_setup' );
+add_action( 'after_setup_theme', 'openstrap_child_theme_setup' );
 ?>

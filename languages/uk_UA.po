@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Openstrap\n"
 "POT-Creation-Date: 2013-08-11 16:45+0530\n"
-"PO-Revision-Date: 2017-10-16 12:05+0300\n"
+"PO-Revision-Date: 2017-10-21 19:50+0300\n"
 "Language-Team: Opencodez Team\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -352,7 +352,7 @@ msgstr ""
 
 #: inc/options.php:109
 msgid "Basic Settings"
-msgstr ""
+msgstr "Базові налаштування"
 
 #: inc/options.php:113
 msgid "Header Background"
@@ -364,7 +364,7 @@ msgstr ""
 
 #: inc/options.php:119
 msgid "Site Logo"
-msgstr ""
+msgstr "Логотип сайту"
 
 #: inc/options.php:120
 msgid "If set this will be used as your sites logo."
@@ -377,6 +377,8 @@ msgstr ""
 #: inc/options.php:126
 msgid "This option allows you to set theme layout Boxed or Full Width/Wide."
 msgstr ""
+"Цей параметр дозволяє встановити макет теми у вигляді фіксованої рамки або "
+"на всю ширину екрану."
 
 #: inc/options.php:149
 msgid "Widget Areas in Extended Footer"
@@ -387,6 +389,8 @@ msgid ""
 "This option allows you to set how many widget areas you want in footer. "
 "Default is 3."
 msgstr ""
+"Цей параметр дозволяє всказати, скільки областей віджетів ви хочете в "
+"колонтитул. Значенням за замовчуванням є 3."
 
 #: inc/options.php:159
 msgid "Copyright Text"
