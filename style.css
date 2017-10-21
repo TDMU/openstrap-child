@@ -36,24 +36,38 @@ div[role="content"].col-md-8 {
 }
 }
 
+@media (max-width: 991px) {
+.navbar-header {
+    float: left;
+}
+}
+
+@media (max-width: 767px) {
+.hidden-xs, tr.hidden-xs, th.hidden-xs, td.hidden-xs {
+    display: none !important;
+}
+}
+
 #header-top {
-    height: 24px !important;
-    max-height: 24px !important;
+    height: 26px !important;
+    max-height: 26px !important;
+}
+
+#header-top-container {
+    padding-top: 5px;
 }
 
 @media(min-width: 800px){
 .site-title{
 		font-size:24pt;
-		text-align:center;
-		padding-top: 10px;		
+		text-align:center;		
 }
 }
 
 @media(max-width: 799px){
 .site-title{
 		font-size:20pt;
-		text-align:center;
-		/*padding-top: 10px;*/		
+		text-align:center;		
 }
 }
 

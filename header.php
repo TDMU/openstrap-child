@@ -50,7 +50,7 @@
 	<?php if ( $header !== "blank" ) : ?>
 		<header class="site-header" role="banner">
 		<div id="header-top">
-			<div class="container hidden-xs">
+			<div class="container">
 				<div class="pull-left header-contact" id="header-top-container">
                 
                         <div class="row">
