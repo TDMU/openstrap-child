@@ -243,7 +243,7 @@
     
     <div class="col-md-12" >
     <?php
-        if ( is_front_page() )
+        if ( is_front_page() && !wp_is_mobile() )
         echo do_shortcode('[crellyslider alias="main_page_slider"]');
     ?>
     </div>
