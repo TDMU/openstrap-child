@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Openstrap\n"
 "POT-Creation-Date: 2013-08-11 16:45+0530\n"
-"PO-Revision-Date: 2017-10-22 19:34+0300\n"
+"PO-Revision-Date: 2017-10-23 15:24+0300\n"
 "Language-Team: Opencodez Team\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +55,7 @@ msgstr "Про %s"
 #: author-box.php:24
 #, php-format
 msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Подивитись всі записи автора %s <span class=\"meta-nav\">&rarr;</span>"
 
 #: author.php:32
 #, php-format
@@ -88,7 +88,7 @@ msgstr "Коментарі закрито."
 #: layouts/sidebar-content-sidebar.php:33 layouts/sidebar-content.php:32
 #: layouts/sidebar-sidebar-content.php:35
 msgid "Nothing Found"
-msgstr ""
+msgstr "Нічого не знайдено"
 
 #: content-none.php:17 layouts/content-sidebar-sidebar.php:36
 #: layouts/content-sidebar.php:34 layouts/full-width.php:34
@@ -103,63 +103,63 @@ msgstr ""
 
 #: content-page.php:18
 msgid "Pages:"
-msgstr ""
+msgstr "Сторінки:"
 
 #: content-page.php:21 functions.php:423
 msgid "Edit"
-msgstr ""
+msgstr "Редагувати"
 
 #: content-single.php:16 content.php:15
 msgid "Featured post"
-msgstr ""
+msgstr "Рекомендовані публікації"
 
 #: content-single.php:23 content.php:25
 #, php-format
 msgid "<span class=\"post_date\">%2$s by %3$s"
-msgstr ""
+msgstr "<span class=\"post_date\">%2$s на %3$s"
 
 #: content-single.php:37 content.php:40
 msgid "No comments"
-msgstr ""
+msgstr "Немає коментарів"
 
 #: content-single.php:37 content.php:40
 msgid "One comment"
-msgstr ""
+msgstr "Один коментар"
 
 #: content-single.php:37 content.php:40
 #, php-format
-msgid "% comments"
-msgstr ""
+msgid "%s comments"
+msgstr "%s коментарів(а)"
 
 #: content-single.php:60
 msgid "Category"
-msgstr ""
+msgstr "Категорія"
 
 #: content-single.php:65
 msgid "Tags"
-msgstr ""
+msgstr "Мітки"
 
 #: content.php:21
 #, php-format
 msgid "Permalink to %s"
-msgstr ""
+msgstr "Постійне посилання на %s"
 
 #: functions.php:69
 msgid "Primary Menu"
-msgstr ""
+msgstr "Головне меню"
 
 #: functions.php:70
 msgid "Secondary Menu"
-msgstr ""
+msgstr "Вторинне меню"
 
 #: functions.php:208
 #, php-format
 msgid "Page %s"
-msgstr ""
+msgstr "Сторінка %s"
 
 #: functions.php:235
 msgid "Sidebar Right"
-msgstr ""
+msgstr "Права бічна панель"
 
 #: functions.php:236
 msgid ""
@@ -171,7 +171,7 @@ msgstr ""
 
 #: functions.php:246
 msgid "Sidebar Left"
-msgstr ""
+msgstr "Ліва бічна панель"
 
 #: functions.php:247
 msgid "This sidebar is located on the left-hand side of each page."
@@ -179,7 +179,7 @@ msgstr "Ця бічна панель розташована у лівій час
 
 #: functions.php:257
 msgid "Footer One"
-msgstr ""
+msgstr "Нижній колонтитул один"
 
 #: functions.php:258
 msgid ""
@@ -191,7 +191,7 @@ msgstr ""
 
 #: functions.php:267
 msgid "Footer Two"
-msgstr ""
+msgstr "Нижній колонтитул два"
 
 #: functions.php:268
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: functions.php:277
 msgid "Footer Three"
-msgstr ""
+msgstr "Нижній колонтитул три"
 
 #: functions.php:278 functions.php:289
 msgid ""
@@ -215,40 +215,44 @@ msgstr ""
 
 #: functions.php:288
 msgid "Footer Four"
-msgstr ""
+msgstr "Нижній колонтитул чотири"
 
 #: functions.php:303
 msgid "Front Page Widget One"
-msgstr ""
+msgstr "Стартова сторінка віджет один"
 
 #: functions.php:304
 msgid "This widget area is active only on frontpage and first widget."
 msgstr ""
-"Цей область віджетів є активною лише на головній сторінці і першому віджет."
+"Ця область віджетів є активною лише на головній сторінці і першому віджеті."
 
 #: functions.php:313
 msgid "Front Page Widget Two"
-msgstr ""
+msgstr "Стартова сторінка віджет два"
 
 #: functions.php:314
 msgid "This widget area is active only on frontpage and second widget."
 msgstr ""
+"Ця область віджетів є активною лише на головній сторінці і другому віджеті."
 
 #: functions.php:323
 msgid "Front Page Widget Three"
-msgstr ""
+msgstr "Стартова сторінка віджет три"
 
 #: functions.php:324
 msgid "This widget area is active only on frontpage and third widget."
 msgstr ""
+"Ця область віджетів є активною лише на головній сторінці і третьому віджеті."
 
 #: functions.php:334
 msgid "Front Page Widget Four"
-msgstr ""
+msgstr "Стартова сторінка віджет чотири"
 
 #: functions.php:335
 msgid "This widget area is active only on frontpage and fourth widget."
 msgstr ""
+"Ця область віджетів є активною лише на головній сторінці і четвертому "
+"віджеті."
 
 #: functions.php:380
 msgid "Pingback:"
@@ -256,24 +260,24 @@ msgstr ""
 
 #: functions.php:380
 msgid "(Edit)"
-msgstr ""
+msgstr "(Редагувати)"
 
 #: functions.php:401
 msgid "Post author"
-msgstr ""
+msgstr "Автор публікації"
 
 #: functions.php:409
 #, php-format
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s о %2$s"
 
 #: functions.php:418
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Ваш коментар чекає модерації."
 
 #: functions.php:427
 msgid "Reply"
-msgstr ""
+msgstr "Відповісти"
 
 #: functions.php:452 functions.php:455
 msgid ", "
@@ -282,7 +286,7 @@ msgstr ""
 #: functions.php:466
 #, php-format
 msgid "View all posts by %s"
-msgstr ""
+msgstr "Переглянути усі публікації від %s"
 
 #: functions.php:472
 #, php-format
@@ -290,6 +294,8 @@ msgid ""
 "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author"
 "\"> by %4$s</span>."
 msgstr ""
+"Опубліковано в %1$s та позначено %2$s на %3$s<span class=\"by-author\"> "
+"автором  %4$s</span>."
 
 #: functions.php:474
 #, php-format
@@ -297,15 +303,16 @@ msgid ""
 "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</"
 "span>."
 msgstr ""
+"Опубліковано в %1$s на %3$s<span class=\"by-author\"> автором  %4$s</span>."
 
 #: functions.php:476
 #, php-format
 msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
-msgstr ""
+msgstr "Опубліковано на %3$s<span class=\"by-author\"> автором  %4$s</span>."
 
 #: sidebar-left.php:19 sidebar.php:15
 msgid "No widgets found."
-msgstr ""
+msgstr "Віджетів не знайдено."
 
 #: sidebar-left.php:20 sidebar.php:16
 #, php-format
@@ -313,11 +320,13 @@ msgid ""
 "It seems you don't have any widgets in your sidebar! Would you like to %s "
 "now?"
 msgstr ""
+"Здається, що ви не маєте будь-які віджети на бічній панелі! Ви хотіли б %s "
+"зараз?"
 
 #: tag.php:21
 #, php-format
 msgid "Tag Archives: %s"
-msgstr ""
+msgstr "Архіви по тегам: %s"
 
 #: searchform.php:13
 #, php-format
@@ -326,31 +335,31 @@ msgstr "Пошук"
 
 #: inc/options.php:32
 msgid "Three"
-msgstr ""
+msgstr "Три"
 
 #: inc/options.php:33
 msgid "Four"
-msgstr ""
+msgstr "Чотири"
 
 #: inc/options.php:37
 msgid "Boxed"
-msgstr ""
+msgstr "Вбудований"
 
 #: inc/options.php:38
 msgid "Wide"
-msgstr ""
+msgstr "Повна ширина"
 
 #: inc/options.php:43
 msgid "French Toast"
-msgstr ""
+msgstr "Французька грінка"
 
 #: inc/options.php:44
 msgid "Pancake"
-msgstr ""
+msgstr "Налисники"
 
 #: inc/options.php:45
 msgid "Omelette"
-msgstr ""
+msgstr "Омлет"
 
 #: inc/options.php:46
 msgid "Crepe"
@@ -358,7 +367,7 @@ msgstr ""
 
 #: inc/options.php:47
 msgid "Waffle"
-msgstr ""
+msgstr "Вафлі"
 
 #: inc/options.php:109
 msgid "Basic Settings"
@@ -366,11 +375,11 @@ msgstr "Базові налаштування"
 
 #: inc/options.php:113
 msgid "Header Background"
-msgstr ""
+msgstr "Фон заголовка"
 
 #: inc/options.php:114
 msgid "If set this will be used as your sites header background."
-msgstr ""
+msgstr "Якщо встановити це буде використано як фон заголовка ваших сайтів."
 
 #: inc/options.php:119
 msgid "Site Logo"
@@ -378,7 +387,7 @@ msgstr "Логотип сайту"
 
 #: inc/options.php:120
 msgid "If set this will be used as your sites logo."
-msgstr ""
+msgstr "Якщо встановити це буде використано як логотип ваших сайтів."
 
 #: inc/options.php:125
 msgid "Theme Layout"
@@ -404,19 +413,19 @@ msgstr ""
 
 #: inc/options.php:159
 msgid "Copyright Text"
-msgstr ""
+msgstr "Текст авторських прав"
 
 #: inc/options.php:160
 msgid "Your sites copyright statement."
-msgstr ""
+msgstr "Звіт про авторські права для ваших сайтів."
 
 #: inc/options.php:166
 msgid "Front Page Settings"
-msgstr ""
+msgstr "Налаштування головної сторінки"
 
 #: inc/options.php:170
 msgid "Settings for Slider on Home page"
-msgstr ""
+msgstr "Налаштування слайдера на домашній сторінці"
 
 #: inc/options.php:171
 msgid "Check to display Slider. Defaults to true."
@@ -424,7 +433,7 @@ msgstr ""
 
 #: inc/options.php:177
 msgid "Slider Image 1"
-msgstr ""
+msgstr "Зображення 1 слайдера"
 
 #: inc/options.php:178 inc/options.php:190 inc/options.php:202
 #: inc/options.php:214
@@ -437,7 +446,7 @@ msgstr ""
 
 #: inc/options.php:189
 msgid "Slider Image 2"
-msgstr ""
+msgstr "Зображення 2 слайдера"
 
 #: inc/options.php:195
 msgid "Enter text here to be displayed in Caption of Image 2."
@@ -445,7 +454,7 @@ msgstr ""
 
 #: inc/options.php:201
 msgid "Slider Image 3"
-msgstr ""
+msgstr "Зображення 3 слайдера"
 
 #: inc/options.php:207
 msgid "Enter text here to be displayed in Caption of Image 3."
@@ -453,7 +462,7 @@ msgstr ""
 
 #: inc/options.php:213
 msgid "Slider Image 4"
-msgstr ""
+msgstr "Зображення 4 слайдера"
 
 #: inc/options.php:219
 msgid "Enter text here to be displayed in Caption of Image 4."
@@ -464,6 +473,8 @@ msgid ""
 "Blurb Settings - Following section allows you to configure your blurb on "
 "home page."
 msgstr ""
+"Параметри аннотації - наступний розділ дозволяє настроїти вашу анотацію  на "
+"домашній сторінці."
 
 #: inc/options.php:231
 msgid "Check to display Blurb on home page."
@@ -494,14 +505,16 @@ msgid ""
 "This option allows you to set how many widget areas you want in Frontpage. "
 "Default is 3."
 msgstr ""
+"Ця опція дозволяє вам встановити скільки віджетів потрібно на Головній "
+"Сторінці. За замовчуванням 3."
 
 #: inc/options.php:276
 msgid "Social"
-msgstr ""
+msgstr "Соціальні мережі"
 
 #: inc/options.php:280
 msgid "Social Settings"
-msgstr ""
+msgstr "Налаштування для соціальних мереж"
 
 #: inc/options.php:281
 msgid "Check to display Social Icons in Footer."
@@ -515,7 +528,7 @@ msgstr ""
 
 #: inc/options.php:288
 msgid "Your Facebook Profile."
-msgstr ""
+msgstr "Ваш профіль Facebook."
 
 #: inc/options.php:294
 msgid "Google Plus"
@@ -523,7 +536,7 @@ msgstr ""
 
 #: inc/options.php:295
 msgid "Your Google Plus Profile."
-msgstr ""
+msgstr "Ваш профіль Google Plus."
 
 #: inc/options.php:301
 msgid "Twitter"
@@ -531,7 +544,7 @@ msgstr ""
 
 #: inc/options.php:302
 msgid "Your Twitter Profile."
-msgstr ""
+msgstr "Ваш профіль Twitter."
 
 #: inc/options.php:308
 msgid "LinkedIn"
@@ -539,7 +552,7 @@ msgstr ""
 
 #: inc/options.php:309
 msgid "Your LinkedIn Profile."
-msgstr ""
+msgstr "Ваш профіль LinkedIn."
 
 #: inc/options.php:315
 msgid "Pinterest"
@@ -547,7 +560,7 @@ msgstr ""
 
 #: inc/options.php:316
 msgid "Your Pinterest Profile."
-msgstr ""
+msgstr "Ваш профіль Pinterest."
 
 #: inc/options.php:322
 msgid "RSS"
@@ -602,15 +615,15 @@ msgstr ""
 
 #: inc/admin/options-framework.php:173 inc/admin/options-framework.php:388
 msgid "Theme Options"
-msgstr ""
+msgstr "Налаштування теми"
 
 #: inc/admin/options-framework.php:204
 msgid "Clear"
-msgstr ""
+msgstr "Очистити"
 
 #: inc/admin/options-framework.php:205
 msgid "Default"
-msgstr ""
+msgstr "За замовчуванням"
 
 #: inc/admin/options-framework.php:206
 msgid "Select Color"
@@ -626,21 +639,21 @@ msgstr ""
 
 #: inc/admin/options-framework.php:338
 msgid "Options saved."
-msgstr ""
+msgstr "Налаштування збережено."
 
 #: inc/admin/options-media-uploader.php:51
 msgid "No file chosen"
-msgstr ""
+msgstr "Файл не вибрано"
 
 #: inc/admin/options-media-uploader.php:54
 #: inc/admin/options-media-uploader.php:111
 msgid "Upload"
-msgstr ""
+msgstr "Вивантажити"
 
 #: inc/admin/options-media-uploader.php:56
 #: inc/admin/options-media-uploader.php:112
 msgid "Remove"
-msgstr ""
+msgstr "Видалити"
 
 #: inc/admin/options-media-uploader.php:59
 msgid "Upgrade your version of WordPress for full media support."
@@ -648,23 +661,23 @@ msgstr ""
 
 #: inc/admin/options-media-uploader.php:83
 msgid "View File"
-msgstr ""
+msgstr "Переглянути файл"
 
 #: inc/admin/options-sanitize.php:232
 msgid "No Repeat"
-msgstr ""
+msgstr "Не повторювати"
 
 #: inc/admin/options-sanitize.php:233
 msgid "Repeat Horizontally"
-msgstr ""
+msgstr "Повторювати по горизонталі"
 
 #: inc/admin/options-sanitize.php:234
 msgid "Repeat Vertically"
-msgstr ""
+msgstr "Повторювати по вертикалі"
 
 #: inc/admin/options-sanitize.php:235
 msgid "Repeat All"
-msgstr ""
+msgstr "Повторювати все"
 
 #: inc/admin/options-sanitize.php:248
 msgid "Top Left"
@@ -716,15 +729,15 @@ msgstr ""
 
 #: inc/admin/options-sanitize.php:345
 msgid "Italic"
-msgstr ""
+msgstr "Курсив"
 
 #: inc/admin/options-sanitize.php:346
 msgid "Bold"
-msgstr ""
+msgstr "Напівжирний"
 
 #: inc/admin/options-sanitize.php:347
 msgid "Bold Italic"
-msgstr ""
+msgstr "Напівжирний курсив"
 
 #: inc/widgets/openstrap-archive-widget.php:23
 msgid ""
@@ -736,16 +749,16 @@ msgstr ""
 
 #: inc/widgets/openstrap-archive-widget.php:24
 msgid "Openstrap Archives"
-msgstr ""
+msgstr "Архіви Openstrap"
 
 #: inc/widgets/openstrap-archive-widget.php:41
 msgid "Select Month"
-msgstr ""
+msgstr "Виберіть місяць"
 
 #: inc/widgets/openstrap-archive-widget.php:71
 #: inc/widgets/openstrap-category-widget.php:101
 msgid "Title:"
-msgstr ""
+msgstr "Заголовок:"
 
 #: inc/widgets/openstrap-archive-widget.php:73
 #: inc/widgets/openstrap-category-widget.php:105
@@ -755,33 +768,35 @@ msgstr ""
 #: inc/widgets/openstrap-archive-widget.php:75
 #: inc/widgets/openstrap-category-widget.php:108
 msgid "Show post counts"
-msgstr ""
+msgstr "Показувати кількість запиів"
 
 #: inc/widgets/openstrap-category-widget.php:24
 msgid ""
 "A list or dropdown of categories. The look and feel has been altered to suit "
 "your theme."
 msgstr ""
+"Список або випадаюче меню категорій. Зовнішній вигляд змінено відповідно до "
+"вашої теми."
 
 #: inc/widgets/openstrap-category-widget.php:25
 msgid "Openstrap Categories"
-msgstr ""
+msgstr "Категорії Openstrap"
 
 #: inc/widgets/openstrap-category-widget.php:31
 msgid "Categories"
-msgstr ""
+msgstr "Катеорії"
 
 #: inc/widgets/openstrap-category-widget.php:48
 msgid "Select Category"
-msgstr ""
+msgstr "Виберіть категорію"
 
 #: inc/widgets/openstrap-category-widget.php:111
 msgid "Show hierarchy"
-msgstr ""
+msgstr "Поазати ієрархію"
 
 #: inc/widgets/openstrap-feedburner-widget.php:18
 msgid "Enable Feedburner form on Your Website."
-msgstr ""
+msgstr "Увімкніть форму Feedburner на своєму веб-сайті."
 
 #: inc/widgets/openstrap-feedburner-widget.php:24
 msgid "Openstrap Feedburner"
@@ -793,7 +808,7 @@ msgstr ""
 
 #: inc/widgets/openstrap-feedburner-widget.php:60
 msgid "Title Text:"
-msgstr ""
+msgstr "Текст заголовку:"
 
 #: inc/widgets/openstrap-feedburner-widget.php:65
 msgid "Sub Text:"
@@ -801,7 +816,7 @@ msgstr ""
 
 #: inc/widgets/openstrap-feedburner-widget.php:70
 msgid "Select Style:"
-msgstr ""
+msgstr "Виберіть стиль:"
 
 #: inc/widgets/google-cse-widget.php:18
 msgid "Enable Google Custom Search on Your Website."
