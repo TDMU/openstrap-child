@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Openstrap\n"
 "POT-Creation-Date: 2013-08-11 16:45+0530\n"
-"PO-Revision-Date: 2017-10-23 15:24+0300\n"
+"PO-Revision-Date: 2017-10-24 10:37+0300\n"
 "Language-Team: Opencodez Team\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -391,7 +391,7 @@ msgstr "Якщо встановити це буде використано як 
 
 #: inc/options.php:125
 msgid "Theme Layout"
-msgstr ""
+msgstr "Макет теми"
 
 #: inc/options.php:126
 msgid "This option allows you to set theme layout Boxed or Full Width/Wide."
@@ -401,7 +401,7 @@ msgstr ""
 
 #: inc/options.php:149
 msgid "Widget Areas in Extended Footer"
-msgstr ""
+msgstr "Області віджетів у Розширеному нижньому колонтитулі"
 
 #: inc/options.php:150
 msgid ""
@@ -429,7 +429,7 @@ msgstr "Налаштування слайдера на домашній стор
 
 #: inc/options.php:171
 msgid "Check to display Slider. Defaults to true."
-msgstr ""
+msgstr "Відзначте, щоб відобразити слайдер. За замовчуванням - істина."
 
 #: inc/options.php:177
 msgid "Slider Image 1"
@@ -438,11 +438,11 @@ msgstr "Зображення 1 слайдера"
 #: inc/options.php:178 inc/options.php:190 inc/options.php:202
 #: inc/options.php:214
 msgid "Set image for slider. Preferred size 1010x400"
-msgstr ""
+msgstr "Встановити зображення для слайдера. Рекомендований розмір 1010x400"
 
 #: inc/options.php:183
 msgid "Enter text here to be displayed in Caption of Image 1."
-msgstr ""
+msgstr "Введіть текст тут, щоб відображати як підпис до Зображення 1."
 
 #: inc/options.php:189
 msgid "Slider Image 2"
@@ -450,7 +450,7 @@ msgstr "Зображення 2 слайдера"
 
 #: inc/options.php:195
 msgid "Enter text here to be displayed in Caption of Image 2."
-msgstr ""
+msgstr "Введіть текст тут, щоб відображати як підпис до Зображення 2."
 
 #: inc/options.php:201
 msgid "Slider Image 3"
@@ -458,7 +458,7 @@ msgstr "Зображення 3 слайдера"
 
 #: inc/options.php:207
 msgid "Enter text here to be displayed in Caption of Image 3."
-msgstr ""
+msgstr "Введіть текст тут, щоб відображати як підпис до Зображення 3."
 
 #: inc/options.php:213
 msgid "Slider Image 4"
@@ -466,7 +466,7 @@ msgstr "Зображення 4 слайдера"
 
 #: inc/options.php:219
 msgid "Enter text here to be displayed in Caption of Image 4."
-msgstr ""
+msgstr "Введіть текст тут, щоб відображати як підпис до Зображення 3."
 
 #: inc/options.php:225
 msgid ""
@@ -478,27 +478,27 @@ msgstr ""
 
 #: inc/options.php:231
 msgid "Check to display Blurb on home page."
-msgstr ""
+msgstr "Відзначте, щоб відображати анотацію на домашній сторінці."
 
 #: inc/options.php:238
 msgid "Enter text here to be displayed in Blurb Section."
-msgstr ""
+msgstr "Введіть тут текст, що буде відображатися у розділі аннотації."
 
 #: inc/options.php:245
 msgid "Check to display Blurb Button."
-msgstr ""
+msgstr "Відзначте щоб відображати кнопку анотації."
 
 #: inc/options.php:252
 msgid "Set title for Blurb Button."
-msgstr ""
+msgstr "Встановити назву кнопки анотації."
 
 #: inc/options.php:259
 msgid "Link for Blurb Button"
-msgstr ""
+msgstr "Посилання для кнопки анотації"
 
 #: inc/options.php:265
 msgid "Widget Areas in Front Page"
-msgstr ""
+msgstr "Область віджетів на головній сторінці"
 
 #: inc/options.php:266
 msgid ""
@@ -568,50 +568,58 @@ msgstr ""
 
 #: inc/options.php:323
 msgid "Your RSS url."
-msgstr ""
+msgstr "Ваше посилання на RSS."
 
 #: inc/options.php:330
 msgid "Ads & Tracking"
-msgstr ""
+msgstr "Реклама та відстеження"
 
 #: inc/options.php:334
 msgid "Ads Setting"
-msgstr ""
+msgstr "Налаштування реклами"
 
 #: inc/options.php:335
 msgid "Check to display ads after header"
-msgstr ""
+msgstr "Відзначте, щоб відображати рекламу після заголовка"
 
 #: inc/options.php:342
 msgid "Code to display ads immediately after header on all pages/posts."
 msgstr ""
+"Код для відображення реклами відразу після заголовка на всіх сторінках / "
+"публікаціях."
 
 #: inc/options.php:349
 msgid "Check to display ads in Starting of Individual Post"
-msgstr ""
+msgstr "Відзначте, щоб відображати рекламу в на початку окремого повідомлення"
 
 #: inc/options.php:356
 msgid ""
 "Code to display ads in single post - After title on the top start of the post"
 msgstr ""
+"Код для показу реклами в одному повідомленні - після заголовка вгорі над "
+"початком публікації"
 
 #: inc/options.php:364
 msgid "Check to display ads in the end of Individual Post"
 msgstr ""
+"Відзначте, шоб відображати рекламу в кінці індивідуального повідомлення"
 
 #: inc/options.php:371
 msgid "Code to display ads in single post - After post in the bottom"
 msgstr ""
+"Код для показу реклами в окремій публікації - внизу, після повідомлення"
 
 #: inc/options.php:377
 msgid "Tracking Code"
-msgstr ""
+msgstr "Код відстеження"
 
 #: inc/options.php:378
 msgid ""
 "Google Analytics Tracking code goes here. It will be included in to your "
 "footer"
 msgstr ""
+"Код відстеження Google Analytics відображається тут. Він буде включений у "
+"ваш нижній колонтитул"
 
 #: inc/admin/options-framework.php:173 inc/admin/options-framework.php:388
 msgid "Theme Options"
@@ -627,15 +635,15 @@ msgstr "За замовчуванням"
 
 #: inc/admin/options-framework.php:206
 msgid "Select Color"
-msgstr ""
+msgstr "Оберіть  колір"
 
 #: inc/admin/options-framework.php:252
 msgid "Click OK to reset. Any theme settings will be lost!"
-msgstr ""
+msgstr "Натисніть OK, щоб скинути. Усі ваші налаштування теми буде втрачено!"
 
 #: inc/admin/options-framework.php:284
 msgid "Default options restored."
-msgstr ""
+msgstr "Налаштування за замовчуванням відновлено."
 
 #: inc/admin/options-framework.php:338
 msgid "Options saved."
@@ -657,7 +665,7 @@ msgstr "Видалити"
 
 #: inc/admin/options-media-uploader.php:59
 msgid "Upgrade your version of WordPress for full media support."
-msgstr ""
+msgstr "Оновіть версію WordPress для повної підтримки медіа."
 
 #: inc/admin/options-media-uploader.php:83
 msgid "View File"
@@ -681,51 +689,51 @@ msgstr "Повторювати все"
 
 #: inc/admin/options-sanitize.php:248
 msgid "Top Left"
-msgstr ""
+msgstr "Зверху зліва"
 
 #: inc/admin/options-sanitize.php:249
 msgid "Top Center"
-msgstr ""
+msgstr "Зверху і по центру"
 
 #: inc/admin/options-sanitize.php:250
 msgid "Top Right"
-msgstr ""
+msgstr "Зверху праворуч"
 
 #: inc/admin/options-sanitize.php:251
 msgid "Middle Left"
-msgstr ""
+msgstr "В середині і зліва"
 
 #: inc/admin/options-sanitize.php:252
 msgid "Middle Center"
-msgstr ""
+msgstr "Посередині і по центру"
 
 #: inc/admin/options-sanitize.php:253
 msgid "Middle Right"
-msgstr ""
+msgstr "Посередині праворуч"
 
 #: inc/admin/options-sanitize.php:254
 msgid "Bottom Left"
-msgstr ""
+msgstr "Знизу зліва"
 
 #: inc/admin/options-sanitize.php:255
 msgid "Bottom Center"
-msgstr ""
+msgstr "Знизу і по центру"
 
 #: inc/admin/options-sanitize.php:256
 msgid "Bottom Right"
-msgstr ""
+msgstr "Знизу праворуч"
 
 #: inc/admin/options-sanitize.php:269
 msgid "Scroll Normally"
-msgstr ""
+msgstr "Прокрутити нормально"
 
 #: inc/admin/options-sanitize.php:270
 msgid "Fixed in Place"
-msgstr ""
+msgstr "Зафіксована на місці"
 
 #: inc/admin/options-sanitize.php:344
 msgid "Normal"
-msgstr ""
+msgstr "Нормальний"
 
 #: inc/admin/options-sanitize.php:345
 msgid "Italic"
@@ -763,7 +771,7 @@ msgstr "Заголовок:"
 #: inc/widgets/openstrap-archive-widget.php:73
 #: inc/widgets/openstrap-category-widget.php:105
 msgid "Display as dropdown"
-msgstr ""
+msgstr "Відображати як випадаючий"
 
 #: inc/widgets/openstrap-archive-widget.php:75
 #: inc/widgets/openstrap-category-widget.php:108
@@ -812,7 +820,7 @@ msgstr "Текст заголовку:"
 
 #: inc/widgets/openstrap-feedburner-widget.php:65
 msgid "Sub Text:"
-msgstr ""
+msgstr "Текст підзаголовку:"
 
 #: inc/widgets/openstrap-feedburner-widget.php:70
 msgid "Select Style:"
@@ -820,19 +828,19 @@ msgstr "Виберіть стиль:"
 
 #: inc/widgets/google-cse-widget.php:18
 msgid "Enable Google Custom Search on Your Website."
-msgstr ""
+msgstr "Увімкнути користувацький пошук Google на свій веб-сайт."
 
 #: inc/widgets/google-cse-widget.php:24
 msgid "Openstrap Google Custom Search"
-msgstr ""
+msgstr "Openstrap користувацький пошук Google"
 
 #: inc/widgets/google-cse-widget.php:42
 msgid "Search Engine Id:"
-msgstr ""
+msgstr "Ідентифікатор пошукової системи:"
 
 #: inc/widgets/google-cse-widget.php:46
 msgid "Results Page URI:"
-msgstr ""
+msgstr "URI сторінки результатів:"
 
 #: layouts/content-sidebar-sidebar.php:21 layouts/content-sidebar.php:19
 #: layouts/full-width.php:19 layouts/sidebar-content-sidebar.php:22
@@ -845,7 +853,7 @@ msgstr "Немає записів для показу"
 #: layouts/sidebar-content.php:25 layouts/sidebar-sidebar-content.php:28
 #, php-format
 msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
-msgstr ""
+msgstr "Готові опублікувати свій перший запис? <a href=\"%s\">Почніть тут</a>."
 
 #: page-templates/full-width.php:25 page-templates/three-column.php:22
 #: page-templates/two-column-sidebar-left.php:23
@@ -857,4 +865,4 @@ msgstr "Немає записів."
 #: page-templates/two-column-sidebar-left.php:24
 #: page-templates/two-column-sidebar-right.php:24
 msgid "Sorry about this, I couldn't seem to find what you were looking for."
-msgstr ""
+msgstr "Шкодую про це, але я, здається, не зміг знайти те, що Ви шукали."
