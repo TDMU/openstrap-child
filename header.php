@@ -163,20 +163,18 @@
                  <div class="hidden-md hidden-lg col-xs-12 col-sm-6">
                     <h1 class="site-title-little">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"> 
-                            <?php //bloginfo( 'name' ); ?>
-                            ТЕРНОПІЛЬСЬКИЙ ДЕРЖАВНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ <div>імені І.Я. Горбачевського</div>
+                            <?php bloginfo( 'name' ); ?>
                         </a>
                     </h1>
-                    <small><?php //bloginfo( 'description' ); ?></small>
+                    <small><?php bloginfo( 'description' ); ?></small>
                  </div>
                   <div class="col-md-7 col-lg-7 hidden-xs hidden-sm">
 					<h1 class="site-title">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                            <?php //bloginfo( 'name' ); ?>
-                            ТЕРНОПІЛЬСЬКИЙ ДЕРЖАВНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ <div>імені І.Я. Горбачевського</div>
+                            <?php bloginfo( 'name' ); ?>
                         </a>
                     </h1>
-					<small><?php //bloginfo( 'description' ); ?></small>
+					<small><?php bloginfo( 'description' ); ?></small>
 				  </div>
 
 				  <div class="col-md-8 hidden-xs">
