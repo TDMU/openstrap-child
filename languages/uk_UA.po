@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Openstrap\n"
 "POT-Creation-Date: 2013-08-11 16:45+0530\n"
-"PO-Revision-Date: 2017-10-24 10:37+0300\n"
+"PO-Revision-Date: 2017-10-29 10:04+0200\n"
 "Language-Team: Opencodez Team\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,17 +31,17 @@ msgstr ""
 #: archive.php:30
 #, php-format
 msgid "Daily Archives: %s"
-msgstr "Архіви по днях  %s"
+msgstr "Архіви по днях: %s"
 
 #: archive.php:32
 #, php-format
 msgid "Monthly Archives: %s"
-msgstr "Архіви за місяць  %s"
+msgstr "Архіви за місяць: %s"
 
 #: archive.php:34
 #, php-format
 msgid "Yearly Archives: %s"
-msgstr "Архіви по роках  %s"
+msgstr "Архіви по роках: %s"
 
 #: archive.php:36 inc/widgets/openstrap-archive-widget.php:31
 msgid "Archives"
