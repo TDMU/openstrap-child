@@ -97,13 +97,13 @@
                                         return $langUrl;
                                     }?>
                                 <span class="no_translate">
-                                    <a class="langFlag" href="<?php bloginfo('url'); echo langFlag ("ua"); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ua.png" alt="" class="img-responsive" /></a>
+                                    <a class="langFlag" href="http://www.tdmu.edu.ua"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ua.png" alt="" class="img-responsive" /></a>
                                     <a class="langFlag" href="<?php echo langFlag ("en"); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/en.png" alt="" class="img-responsive" /></a>
                                 </span>
                             </div>
                             <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
                                 <span class="no_translate">
-                                    <a class="langFlag" href="<?php bloginfo('url'); echo langFlag ("ua"); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ua.png" alt="" class="img-responsive" /></a>
+                                    <a class="langFlag" href="http://www.tdmu.edu.ua"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ua.png" alt="" class="img-responsive" /></a>
                                     <a class="langFlag" href="<?php echo langFlag ("en"); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/en.png" alt="" class="img-responsive" /></a>
                                 </span>
                             </div>
