@@ -1,0 +1,88 @@
+html, body, #map-canvas {
+    margin: 0;
+    padding: 0;
+    /*width: 1024px;*/
+    /*height: 768px;*/
+    height: 100%;
+}
+#legend {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #000;
+}
+#legend h3 {
+    margin-top: 0;
+}
+#legend img {
+    vertical-align: middle;
+}
+
+.iwsw {
+    font-weight: bold;
+    text-align: right;
+    color: blue;
+}
+
+.iwsw:hover {
+    cursor: pointer;
+}
+
+.ui-dialog-titlebar {
+    background: #fff;
+    padding: 5px;
+    text-align: right;
+    color: blue;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-sizing: content-box;
+}
+
+.ui-dialog-titlebar > button {
+    margin-left: 10px;
+}
+
+#map-canvas {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.iwsw {
+    font-weight: bold;
+    text-align: right;
+    color: blue;
+}
+
+.iwsw:hover {
+    cursor: pointer;
+}
+
+.ui-dialog-titlebar {
+    background: #fff;
+    padding: 5px;
+    text-align: right;
+    color: blue;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-sizing: content-box;
+}
+
+.ui-dialog-titlebar > button {
+    margin-left: 10px;
+}
+img.wp-smiley,
+img.emoji {
+display: inline !important;
+border: none !important;
+box-shadow: none !important;
+height: 1em !important;
+width: 1em !important;
+margin: 0 .07em !important;
+vertical-align: -0.1em !important;
+background: none !important;
+padding: 0 !important;
+}
