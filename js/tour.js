@@ -117,7 +117,7 @@
   				icon: templateUrl+"/images/academic-building.png"
   		},
   		{
-  				position: new google.maps.LatLng(49.5601776,25.5954094),
+  				position: new google.maps.LatLng(49.560212,25.5950123),
   				type: 'university',
   				shopName: 'ТДМУ, Кафедра терапевтичної стоматології',
   				shopAddress: 'Чехова 3, Тернопіль, Тернопільська область',
