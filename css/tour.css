@@ -29,6 +29,10 @@ html, body, #map-canvas {
     cursor: pointer;
 }
 
+.ui-dialog {
+  z-index: 1000;
+}
+
 .ui-dialog-titlebar {
     background: #fff;
     padding: 5px;
