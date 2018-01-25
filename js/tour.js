@@ -22,7 +22,7 @@
 
   var templateUrl = theme_path.templateUrl;
   console.log(templateUrl);
-  
+
   var map;
   var panoramaOptions;
   var panorama;
@@ -66,7 +66,7 @@
           //Call StreetView
           google.maps.event.addDomListener(infowindow, 'domready', function() {
               $('.iwsw').click(function() {
-                  showStreetView(feature.position);
+                  showStreetView(feature);
               });
           });
 
@@ -82,61 +82,70 @@
       }
 
       var features = [{
-          position: new google.maps.LatLng(49.5503987,25.5880084),
-          type: 'university',
-          shopName: 'ТДМУ, Інститут морфологічний',
-          shopAddress: 'Руська, 12, Тернопіль, Тернопільська область',
-          icon: templateUrl+"/images/academic-building.png"
-      },
-  		{
-  				position: new google.maps.LatLng(49.5445811,25.6121596),
-  				type: 'university',
-  				shopName: 'ТДМУ, Інститут моделювання та аналізу патологічних процесів',
-  				shopAddress: 'Гетьмана Дорошенка 7, Тернопіль, Тернопільська область, 46000',
-  				icon: templateUrl+"/images/academic-building.png"
-  		},
-  		{
-  				position: new google.maps.LatLng(49.5521107,25.5906239),
-  				type: 'university',
-  				shopName: 'ТДМУ, Інститут фармакології, гігієни та медичної біохімії ім. М. П. Скакуна',
-  				shopAddress: 'Майдан Волі 1, Тернопіль, Тернопільська область',
-  				icon: templateUrl+"/images/academic-building.png"
-  		},
-  		{
-  				position: new google.maps.LatLng(49.5498643,25.5968433),
-  				type: 'university',
-  				shopName: 'ТДМУ, Бібліотека',
-  				shopAddress: 'Січових стрільців 8, Тернопіль, Тернопільська область',
-  				icon: templateUrl+"/images/academic-building.png"
-  		},
-  		{
-  				position: new google.maps.LatLng(49.5511261,25.5970054),
-  				type: 'university',
-  				shopName: 'ТДМУ, Фармацевтичний факультет',
-  				shopAddress: 'Руська, 36, Тернопіль, Тернопільська область',
-  				icon: templateUrl+"/images/academic-building.png"
-  		},
-  		{
-  				position: new google.maps.LatLng(49.560212,25.5950123),
-  				type: 'university',
-  				shopName: 'ТДМУ, Кафедра терапевтичної стоматології',
-  				shopAddress: 'Чехова 3, Тернопіль, Тернопільська область',
-          icon: templateUrl+"/images/academic-building.png"
-  		},
-  		{
-  				position: new google.maps.LatLng(49.5606896,25.595121),
-  				type: 'university',
-  				shopName: 'ТДМУ, Стоматологічний факультет',
-  				shopAddress: 'Чехова 7, Тернопіль, Тернопільська область',
-  				icon: templateUrl+"/images/academic-building.png"
-  		},
-  		{
-  				position: new google.maps.LatLng(49.5531571,25.5941792),
-  				type: 'university',
-  				shopName: 'ТДМУ, Iнститут медико-бiологiчних проблем',
-  				shopAddress: 'Словацького, 2, Тернопіль, Тернопільська область',
-  				icon: templateUrl+"/images/academic-building.png"
-  		}];
+        position: new google.maps.LatLng(49.5503987,25.5880084),
+        type: 'university',
+        shopName: 'ТДМУ, Інститут морфологічний',
+        shopAddress: 'Руська, 12, Тернопіль, Тернопільська область',
+        icon: templateUrl+"/images/academic-building.png",
+        heading: 208
+    },
+		{
+				position: new google.maps.LatLng(49.5445811,25.6121596),
+				type: 'university',
+				shopName: 'ТДМУ, Інститут моделювання та аналізу патологічних процесів',
+				shopAddress: 'Гетьмана Дорошенка 7, Тернопіль, Тернопільська область, 46000',
+  			icon: templateUrl+"/images/academic-building.png",
+        heading: 214
+		},
+		{
+				position: new google.maps.LatLng(49.5521107,25.5906239),
+        // 49.5520494,25.5905555
+				type: 'university',
+				shopName: 'ТДМУ, Інститут фармакології, гігієни та медичної біохімії ім. М. П. Скакуна',
+				shopAddress: 'Майдан Волі 1, Тернопіль, Тернопільська область',
+				icon: templateUrl+"/images/academic-building.png",
+        heading: 175
+		},
+		{
+				position: new google.maps.LatLng(49.5498643,25.5968433),
+				type: 'university',
+				shopName: 'ТДМУ, Бібліотека',
+				shopAddress: 'Січових стрільців 8, Тернопіль, Тернопільська область',
+				icon: templateUrl+"/images/academic-building.png",
+        heading: 197
+		},
+		{
+				position: new google.maps.LatLng(49.5511261,25.5970054),
+				type: 'university',
+				shopName: 'ТДМУ, Фармацевтичний факультет',
+				shopAddress: 'Руська, 36, Тернопіль, Тернопільська область',
+				icon: templateUrl+"/images/academic-building.png",
+        heading: 172
+		},
+		{
+				position: new google.maps.LatLng(49.560212,25.5950123),
+				type: 'university',
+				shopName: 'ТДМУ, Кафедра терапевтичної стоматології',
+				shopAddress: 'Чехова 3, Тернопіль, Тернопільська область',
+				icon: templateUrl+"/images/academic-building.png",
+        heading: 26
+		},
+		{
+				position: new google.maps.LatLng(49.5606896,25.595121),
+				type: 'university',
+				shopName: 'ТДМУ, Стоматологічний факультет',
+				shopAddress: 'Чехова 7, Тернопіль, Тернопільська область',
+        icon: templateUrl+"/images/academic-building.png",
+        heading: 242
+		},
+		{
+				position: new google.maps.LatLng(49.5531571,25.5941792),
+				type: 'university',
+				shopName: 'ТДМУ, Iнститут медико-бiологiчних проблем',
+				shopAddress: 'Словацького, 2, Тернопіль, Тернопільська область',
+				icon: templateUrl+"/images/academic-building.png",
+        heading: 275
+		}];
 
       for (var i = 0, feature; feature = features[i]; i++) {
           addMarker(feature);
@@ -146,24 +155,20 @@
   google.maps.event.addDomListener(window, 'load', initialize);
 
   //Display dialog with streetview
-  function showStreetView(position) {
+  function showStreetView(feature) {
       var panoramaOptions = {
-          position: position,
+          position: feature.position,
           zoom: 1,
           pov: {
-              heading: 215,
+              heading: feature.heading,
               pitch: 0,
               zoom: 1
           },
           visible: true
       };
       var panorama = new google.maps.StreetViewPanorama(document.getElementById("dialog-sw-canvas"), panoramaOptions);
-      // panorama.setPov({
-      //     heading: 215,
-      //     pitch: 0,
-      //     zoom: 1
-      // });
-console.log(panorama);
+
+      console.log(panorama);
       map.setStreetView(panorama);
       $("#dialog-sw-canvas").dialog("open");
       google.maps.event.trigger(panorama,'resize');
