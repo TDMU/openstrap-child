@@ -6,8 +6,7 @@
           title: '3D Тур',
           width: 600,
           height: 400,
-          closed: true,	    
-          closeOnEscape: true,
+          closed: true,
           cache: false,
           modal: true,
           onClose: function() {
@@ -27,8 +26,6 @@
   var map;
   var panoramaOptions;
   var panorama;
-  var infowindow;
-  var activeWindow;
   var sv = new google.maps.StreetViewService();
 
   function initialize() {
@@ -58,9 +55,8 @@
               map: map,
               icon: feature.icon
           });
-          
-	  //Create Infowindow
-          infowindow = new google.maps.InfoWindow();
+          //Create Infowindow
+          var infowindow = new google.maps.InfoWindow();
 
           var content = '<h1 id="Heading" class="Heading">' + feature.shopName + '</h1>' +
               '<div id="iwcontent" class="iwcontent">' +
@@ -77,15 +73,8 @@
 
           google.maps.event.addListener(marker, 'click', (function(marker, content, infowindow) {
               return function() {
-                  if (activeWindow) {
-                      activeWindow.close();
-                  }
-		  
-		  //Create Infowindow
-                  activeWindow = new google.maps.InfoWindow();
-
-                  activeWindow.setContent(content);
-                  activeWindow.open(map, marker);
+                  infowindow.setContent(content);
+                  infowindow.open(map, marker);
               };
           })(marker, content, infowindow));
 
