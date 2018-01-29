@@ -26,6 +26,7 @@
   var map;
   var panoramaOptions;
   var panorama;
+  var windows = [];
   var sv = new google.maps.StreetViewService();
 
   function initialize() {
@@ -57,6 +58,7 @@
           });
           //Create Infowindow
           var infowindow = new google.maps.InfoWindow();
+          windows.push(infowindow);
 
           var content = '<h1 id="Heading" class="Heading">' + feature.shopName + '</h1>' +
               '<div id="iwcontent" class="iwcontent">' +
@@ -73,6 +75,11 @@
 
           google.maps.event.addListener(marker, 'click', (function(marker, content, infowindow) {
               return function() {
+		  // Close all
+                  for (win of windows) {
+                    win.close();
+                  }
+		      
                   infowindow.setContent(content);
                   infowindow.open(map, marker);
               };
