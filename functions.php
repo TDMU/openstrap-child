@@ -9,6 +9,22 @@ function my_theme_enqueue_styles() {
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
+	
+	wp_enqueue_style(
+    	'custom-jqueryui-style',
+    	get_stylesheet_directory_uri() . '/css/jquery-ui.min.css',
+	array(),
+	'1.0',
+	'all'
+    );
+
+	wp_enqueue_style(
+    	'tour-style',
+    	get_stylesheet_directory_uri() . '/css/tour.css',
+	array(),
+	'1.0',
+	'all'
+    );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
