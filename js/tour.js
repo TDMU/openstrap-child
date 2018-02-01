@@ -28,7 +28,7 @@
 
   function initialize() {
       map = new google.maps.Map(document.getElementById('map-canvas'), {
-          zoom: 15,
+          zoom: 14,
           center: new google.maps.LatLng(client_lat, client_lon),
           streetViewControl: false
       });
