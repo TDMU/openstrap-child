@@ -2,7 +2,7 @@
   //define dialog
   $(function() {
       $('#dialog-sw-canvas').dialog({
-          title: '3D Тур',
+          title: '3D Tour',
           width: 600,
           height: 400,
           closed: true,
@@ -59,9 +59,9 @@
 
           var content = '<h1 id="Heading" class="Heading">' + feature.shopName + '</h1>' +
               '<div id="iwcontent" class="iwcontent">' +
-              '<p><b>Адреса : </b>' + feature.shopAddress + '</br>' +
+              '<p><b>Address : </b>' + feature.shopAddress + '</br>' +
               '</div>' +
-              '<div id="iwsw" class="iwsw">Відкрити 3D тур</div>';
+              '<div id="iwsw" class="iwsw">Open 3D tour</div>';
           //Call StreetView
           google.maps.event.addDomListener(infowindow, 'domready', function() {
               $('.iwsw').click(function() {
@@ -87,64 +87,64 @@
 		{
 			position: new google.maps.LatLng(49.5503987,25.5880084),
 			type: 'university',
-			shopName: 'ТДМУ, Інститут морфологічний',
-			shopAddress: 'Руська, 12, Тернопіль, Тернопільська область',
+			shopName: 'TSMU, Institute of Morphology',
+			shopAddress: '12 Ruska Street, Ternopil, 46001, Ukraine',
 			icon: templateUrl+"/images/academic-building.png",
 			heading: 208
 		},
 		{
 			position: new google.maps.LatLng(49.5445811,25.6121596),
 			type: 'university',
-			shopName: 'ТДМУ, Інститут моделювання та аналізу патологічних процесів',
-			shopAddress: 'Гетьмана Дорошенка 7, Тернопіль, Тернопільська область, 46000',
+			shopName: 'TSMU, Institute of Pathological Processes Simulation and Analysis',
+			shopAddress: '7 Doroshenka Street, Ternopil, 46000, Ukraine',
   			icon: templateUrl+"/images/academic-building.png",
 			heading: 214
 		},
 		{
 			position: new google.maps.LatLng(49.5521107,25.5906239),
 			type: 'university',
-			shopName: 'ТДМУ, Інститут фармакології, гігієни та медичної біохімії ім. М. П. Скакуна',
-			shopAddress: 'Майдан Волі 1, Тернопіль, Тернопільська область',
+			shopName: 'TSMU, M.P. Skakun Institute of Pharmacology, Hygiene and Medical Biochemistry',
+			shopAddress: 'Maidan Voli, 1, Ternopil, 46001, Ukraine',
 			icon: templateUrl+"/images/academic-building.png",
 			heading: 175
 		},
 		{
 			position: new google.maps.LatLng(49.5498643,25.5968433),
 			type: 'university',
-			shopName: 'ТДМУ, Бібліотека',
-			shopAddress: 'Січових стрільців 8, Тернопіль, Тернопільська область',
+			shopName: 'TSMU, Library',
+			shopAddress: '8 Sichovi Striltsi Street, Ternopil, 46001, Ukraine',
 			icon: templateUrl+"/images/academic-building.png",
 			heading: 197
 		},
 		{
 			position: new google.maps.LatLng(49.5511261,25.5970054),
 			type: 'university',
-			shopName: 'ТДМУ, Фармацевтичний факультет',
-			shopAddress: 'Руська, 36, Тернопіль, Тернопільська область',
+			shopName: 'TSMU, Pharmaceutical faculty',
+			shopAddress: '36 Ruska Street, Ternopil, 46001, Ukraine',
 			icon: templateUrl+"/images/academic-building.png",
 			heading: 172
 		},
 		{
 			position: new google.maps.LatLng(49.560212,25.5950123),
 			type: 'university',
-			shopName: 'ТДМУ, Кафедра терапевтичної стоматології',
-			shopAddress: 'Чехова 3, Тернопіль, Тернопільська область',
+			shopName: 'TSMU, Department of Therapeutic Dentistry',
+			shopAddress: '3 Chekhova Street, Ternopil, 46003, Ukraine',
 			icon: templateUrl+"/images/academic-building.png",
 			heading: 26
 		},
 		{
 			position: new google.maps.LatLng(49.5606896,25.595121),
 			type: 'university',
-			shopName: 'ТДМУ, Стоматологічний факультет',
-			shopAddress: 'Чехова 7, Тернопіль, Тернопільська область',
+			shopName: 'TSMU, Faculty Of Dentistry',
+			shopAddress: '7 Chekhova Street, Ternopil, 46003, Ukraine',
 			icon: templateUrl+"/images/academic-building.png",
 			heading: 242
 		},
 		{
 			position: new google.maps.LatLng(49.5531571,25.5941792),
 			type: 'university',
-			shopName: 'ТДМУ, Iнститут медико-бiологiчних проблем',
-			shopAddress: 'Словацького, 2, Тернопіль, Тернопільська область',
+			shopName: 'TSMU, Institute of Biomedical Problems',
+			shopAddress: '2 Slovatsky Street, Ternopil, 46001, Ukraine',
 			icon: templateUrl+"/images/academic-building.png",
 			heading: 275
 		}];
