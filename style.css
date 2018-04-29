@@ -169,3 +169,142 @@ div[role="content"].col-md-8 {
    color: #044687;
 }
 
+a{
+	border: 1px solid rgba(255,0,0,0);
+	border-radius: 12px;
+
+} /*рамка підпунктів меню*/
+.dropdown-menu{
+	border: 1px solid rgba(222,0,0,0);
+	border-radius: 5px;
+	margin-left: 3px;
+	background-color: #EAEAEA;
+} /**/
+.col-md-8{
+	border: 1px solid #EAEAEA;
+	border-radius: 5px;
+	background-color:  #fff;	
+} /*новини */
+.hidden-xs{
+	border: 0px solid rgba(255,0,0,0);
+	background-color:  #EAEAEA;
+} /**/
+.widget-title{
+	padding-left: 22px;
+} /**/
+.widget{
+	border: 1px solid #EAEAEA;
+	border-radius: 5px;
+	margin-left: 1px;	
+	padding: 3px;
+	background-color:  #fff;
+} /**/
+.widget:hover{	
+	background-color:  #C1C1C1
+} /**/
+.has-post-thumbnail:hover{
+	background-color: #EAEAEA;
+} /**/
+.wp-image-3605:hover{
+	border:4px solid #EAEAEA;
+border-radius: 5px;
+} /**/
+.alignleft:hover{
+	border:4px solid #EAEAEA;
+border-radius: 5px;
+} /**/
+#wrap{
+	background-color: #EAEAEA;
+} /**/
+.no-translate{
+	background-color:  #022F5A;
+} /**/
+#text-8{
+		margin-top: 0px;	
+} /**/
+#tw-recent-posts-6{
+		margin-bottom: 0px;	
+} /**/
+#tw-recent-posts-5{
+	margin-bottom: 0px;	
+} /**/
+#text-9{
+	margin-top: 0px;
+}/**/	
+.col-lg-12{
+	background-color: #022F5A;
+
+	border-radius: 5px;
+	margin-top: -3px;
+	
+}
+.customize-unpreviewable{
+	border: 0px solid rgba(255,0,0,0);
+}
+.navbar{
+	border: 1px solid #1423C9;
+	border-radius: 1px;
+
+}
+.has-post-thumbnail:hover{
+	background-color: #CBCBCB;
+}
+.widget:hover{
+	background-color: #fff;
+}
+.crellyslider-slider{
+	padding: 2px;
+	border: 12px solid #DDDFE2;
+	border-radius: 5px;
+	margin-left:4px;
+	margin-right: 4px;
+	margin-bottom: 15px;
+  margin-top: 1px;
+	background-color:#DDDFE2;
+	
+}
+.dropdown-menu{
+	border: 1px solid rgba(222,0,0,0);
+	border-radius: 5px;
+		margin-left: 3px;
+}
+a{
+	border: 1px solid rgba(255,0,0,0);
+	border-radius: 12px;
+}
+.col-md-8{
+	border: 1px solid #DDDFE2;
+	border-radius: 5px;
+		
+}
+.widget{
+	padding: 6px;
+	border: 1px solid #DDDFE2;
+	border-radius: 5px;
+	margin-left: 1px;	
+	padding: 1px;
+}
+#text-8{
+		margin-top: 0px;	
+}
+#tw-recent-posts-6{
+		margin-bottom: 0px;	
+}
+#tw-recent-posts-5{
+	margin-bottom: 0px;	
+}
+#text-9{
+	margin-top: 0px;
+}	
+
+.wp-image-3605:hover{
+	border:4px solid #DDDFE2;
+border-radius: 5px;
+}
+.alignleft:hover{
+	border:4px solid #DDDFE2;
+border-radius: 5px;
+}
+.hidden-xs{
+	border: 0px solid rgba(255,0,0,0);
+}
