@@ -195,10 +195,6 @@ a{
 	padding-left: 22px;
 } /**/
 .widget{
-	border: 1px solid #EAEAEA;
-	border-radius: 5px;
-	margin-left: 1px;	
-	padding: 3px;
 	background-color:  #fff;
 } /**/
 .widget:hover{	
