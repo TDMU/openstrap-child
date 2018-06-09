@@ -50,8 +50,16 @@ div[role="content"].col-md-8 {
 }
 
 @media (min-width: 992px) {
-.col-md-8.hidden-xs {
+.hidden-xs {
     width: 25% !important;
+    border: 0px solid rgba(255,0,0,0);
+    background-color:  #EAEAEA;
+}
+.col-md-8 {
+    width: 25% !important;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    background-color:  #fff;
 }
 }
 
@@ -169,3 +177,53 @@ div[role="content"].col-md-8 {
    color: #044687;
 }
 
+/*прозора заокруглена рамка*/
+a{
+	border: 0px solid rgba(255,0,0,0);
+	border-radius: 12px;
+}
+/*рамка підпунктів меню*/
+.dropdown-menu{
+	border: 1px solid rgba(222,0,0,0);
+	border-radius: 5px;
+	margin-left: 3px;
+	background-color: #EAEAEA;
+}
+/*заголовки віджетів*/
+.widget-title{
+	padding-left: 22px;
+	padding-top: 10px;
+} 
+/*віджети*/
+.widget{
+	background-color:  #fff;
+} 
+/*при наведені на віджети*/
+.widget:hover{	
+	background-color:  #C1C1C1
+} 
+/*виділення постів при наведені*/
+.category-news:hover{
+	background-color: #EAEAEA;
+} 
+/*рамки для банерів*/
+.wp-image-3605:hover{
+	border:4px solid #EAEAEA;
+border-radius: 5px;
+} 
+/*загальний фон*/
+#wrap{
+	background-color: #EAEAEA;
+} 
+/*фон та положення переключення мови*/
+.col-lg-12{
+	background-color: #022F5A;
+	border-radius: 5px;
+	margin-top: -3px;	
+}
+/* зміна фону при наведені на "оголошення" та "актуально" */
+.rpwe-clearfix:hover{
+background-color:  #ffffff;
+	border:4px solid #EAEAEA;
+border-radius: 5px;
+}
