@@ -50,16 +50,18 @@ div[role="content"].col-md-8 {
 }
 
 @media (min-width: 992px) {
-.hidden-xs {
-    width: 25% !important;
-    border: 0px solid rgba(255,0,0,0);
-    background-color:  #EAEAEA;
-}
+/*news in border and change color*/
 .col-md-8 {
     width: 25% !important;
     border: 1px solid #EAEAEA;
     border-radius: 5px;
     background-color:  #fff;
+}
+/*background under social networks and search */
+.hidden-xs {
+    width: 25% !important;
+    border: 0px solid rgba(255,0,0,0);
+    background-color:  #EAEAEA;
 }
 }
 
@@ -177,19 +179,19 @@ div[role="content"].col-md-8 {
    color: #044687;
 }
 
-/*прозора заокруглена рамка*/
+/*transparent, rounded frame*/
 a{
 	border: 0px solid rgba(255,0,0,0);
 	border-radius: 12px;
 }
-/*рамка підпунктів меню*/
+/*the frame of the submenu of the menu*/
 .dropdown-menu{
 	border: 1px solid rgba(222,0,0,0);
 	border-radius: 5px;
 	margin-left: 3px;
-	background-color: #EAEAEA;
+	background-color: #EAEAEA
 }
-/*заголовки віджетів*/
+/*widget headers*/
 .widget-title{
 	padding-left: 22px;
 	padding-top: 10px;
