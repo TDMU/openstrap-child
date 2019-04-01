@@ -1,4 +1,4 @@
-﻿/*
+/*
 Theme Name: Openstrap Child
 Theme URI: https://www.tdmu.edu.ua
 Description: http://www.opencodez.com/free-themes/openstrap Child Theme
@@ -50,18 +50,18 @@ div[role="content"].col-md-8 {
 }
 
 @media (min-width: 992px) {
-
 .col-md-8{
-	width: 25% !important;
-	border: 1px solid #EAEAEA;
-	border-radius: 5px;
-	background-color:  #fff;	
-} /*новини */
-.hidden-xs{
-	width: 25% !important;
-	border: 0px solid rgba(255,0,0,0);
-	background-color:  #EAEAEA;
-} /**/
+    width: 25% !important;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    background-color:  #fff;
+
+}
+.hidden-xs {
+    width: 25% !important;
+    background-color: #EAEAEA;
+
+}
 }
 
 @media (max-width: 991px) {
@@ -137,6 +137,14 @@ div[role="content"].col-md-8 {
 .langFlag {
     display: inline-block;
     padding: 0px 0px 0px 5px;
+    /*  /*flags for langvich* 
+    .col-lg-12{
+	background-color: #022F5A;
+	border-radius: 5px;
+	margin-top: -3px;	*/
+    background-color: #022F5A;
+	border-radius: 5px;
+	margin-top: -3px;	
 }
 
 .btn-primary {
@@ -178,54 +186,51 @@ div[role="content"].col-md-8 {
    color: #044687;
 }
 
-/*прозора заокруглена рамка*/
-a{
-	border: 0px solid rgba(255,0,0,0);
-	border-radius: 12px;
-}
-/*рамка підпунктів меню*/
+/*the frame of the submenu of the menu*/
 .dropdown-menu{
 	border: 1px solid rgba(222,0,0,0);
 	border-radius: 5px;
 	margin-left: 3px;
 	background-color: #EAEAEA;
-} /**/
+}
+/*widget headers*/
 .widget-title{
+	padding: 12px;
 	padding-left: 22px;
-} /**/
+	padding-top: 18px;
+} 
+.widget-title:hover{
+	background-color:  #fff;
+}
+
+.rpwe-li{
+	padding: 15px;
+}
+/*widjets*/
 .widget{
 	background-color:  #fff;
-} /**/
+} 
+/*hover widgets*/
 .widget:hover{	
 	background-color:  #C1C1C1
-} /**/
-.has-post-thumbnail:hover{
+} 
+/*hower post news*/
+.category-news:hover{
 	background-color: #EAEAEA;
-} /**/
+} 
+/*border baner*/
 .wp-image-3605:hover{
 	border:4px solid #EAEAEA;
 border-radius: 5px;
-} /**/
-.alignleft:hover{
-	border:4px solid #EAEAEA;
-border-radius: 5px;
-} /**/
+} 
+/*bacgraund color from all*/
 #wrap{
 	background-color: #EAEAEA;
-} /**/
-.no-translate{
-	background-color:  #022F5A;
-} /**/
+} 
 
-#text-8#text-9{
-		margin-top: 0px;	
-} /**/
-#tw-recent-posts-6#tw-recent-posts-5{
-		margin-bottom: 0px;	
-} /**/
-	
-.col-lg-12{
-	background-color: #022F5A;
-	border-radius: 5px;
-	margin-top: -3px;	
+/* backgraund color  "оголошення" та "актуально" */
+.rpwe-clearfix:hover{
+background-color:  #ffffff;
+	border:4px solid #EAEAEA;
+border-radius: 5px;
 }
