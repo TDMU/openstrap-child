@@ -50,18 +50,17 @@ div[role="content"].col-md-8 {
 }
 
 @media (min-width: 992px) {
-/*news in border and change color*/
-.col-md-8 {
+.col-md-8{
     width: 25% !important;
     border: 1px solid #EAEAEA;
     border-radius: 5px;
     background-color:  #fff;
+
 }
-/*background under social networks and search */
 .hidden-xs {
     width: 25% !important;
-    border: 0px solid rgba(255,0,0,0);
-    background-color:  #EAEAEA;
+    background-color: #EAEAEA;
+
 }
 }
 
@@ -88,24 +87,24 @@ div[role="content"].col-md-8 {
 
 @media(min-width: 800px){
 .site-title{
-		font-size:24pt;
-		text-align:center;		
+        font-size:24pt;
+        text-align:center;      
 }
 }
 
 @media(max-width: 799px){
 .site-title{
-		font-size:20pt;
-		text-align:center;		
+        font-size:20pt;
+        text-align:center;      
 }
 }
 
 .site-title span{
-		font-size:15pt;
-		text-align:center;
-		padding-top:5px;
-		display:block;
-		
+        font-size:15pt;
+        text-align:center;
+        padding-top:5px;
+        display:block;
+        
 }
 
 .widget_search {
@@ -138,13 +137,21 @@ div[role="content"].col-md-8 {
 .langFlag {
     display: inline-block;
     padding: 0px 0px 0px 5px;
+    /*  /*flags for langvich* 
+    .col-lg-12{
+    background-color: #022F5A;
+    border-radius: 5px;
+    margin-top: -3px;   */
+    background-color: #022F5A;
+    border-radius: 5px;
+    margin-top: -3px;   
 }
 
 .btn-primary {
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#044687), color-stop(60%, #044687), to(#044687));
     background-image: -webkit-linear-gradient(#044687, #044687 60%, #044687);
     background-image: -moz-linear-gradient(top, #044687, #044687 60%, #044687);
-	background-image: linear-gradient(#044687, #044687 60%, #044687);
+    background-image: linear-gradient(#044687, #044687 60%, #044687);
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
@@ -179,53 +186,51 @@ div[role="content"].col-md-8 {
    color: #044687;
 }
 
-/*transparent, rounded frame*/
-a{
-	border: 0px solid rgba(255,0,0,0);
-	border-radius: 12px;
-}
 /*the frame of the submenu of the menu*/
 .dropdown-menu{
-	border: 1px solid rgba(222,0,0,0);
-	border-radius: 5px;
-	margin-left: 3px;
-	background-color: #EAEAEA
+    border: 1px solid rgba(222,0,0,0);
+    border-radius: 5px;
+    margin-left: 3px;
+    background-color: #EAEAEA;
 }
 /*widget headers*/
 .widget-title{
-	padding-left: 22px;
-	padding-top: 10px;
+    padding: 12px;
+    padding-left: 22px;
+    padding-top: 18px;
 } 
-/*віджети*/
+.widget-title:hover{
+    background-color:  #fff;
+}
+
+.rpwe-li{
+    padding: 15px;
+}
+/*widjets*/
 .widget{
-	background-color:  #fff;
+    background-color:  #fff;
 } 
-/*при наведені на віджети*/
-.widget:hover{	
-	background-color:  #C1C1C1
+/*hover widgets*/
+.widget:hover{  
+    background-color:  #C1C1C1
 } 
-/*виділення постів при наведені*/
+/*hower post news*/
 .category-news:hover{
-	background-color: #EAEAEA;
+    background-color: #EAEAEA;
 } 
-/*рамки для банерів*/
+/*border baner*/
 .wp-image-3605:hover{
-	border:4px solid #EAEAEA;
+    border:4px solid #EAEAEA;
 border-radius: 5px;
 } 
-/*загальний фон*/
+/*bacgraund color from all*/
 #wrap{
-	background-color: #EAEAEA;
+    background-color: #EAEAEA;
 } 
-/*фон та положення переключення мови*/
-.col-lg-12{
-	background-color: #022F5A;
-	border-radius: 5px;
-	margin-top: -3px;	
-}
-/* зміна фону при наведені на "оголошення" та "актуально" */
+
+/* backgraund color  "оголошення" та "актуально" */
 .rpwe-clearfix:hover{
 background-color:  #ffffff;
-	border:4px solid #EAEAEA;
+    border:4px solid #EAEAEA;
 border-radius: 5px;
 }
