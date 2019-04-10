@@ -57,6 +57,8 @@ div[role="content"].col-md-8 {
     background-color:  #fff;
 
 }
+.hidden-xs {
+       background-color: #EAEAEA;
 
 }
 
@@ -133,11 +135,6 @@ div[role="content"].col-md-8 {
 .langFlag {
     display: inline-block;
     padding: 0px 0px 0px 5px;
-    /*  flags for langvich* 
-    .col-lg-12{
-	background-color: #022F5A;
-	border-radius: 5px;
-	margin-top: -3px;	*/
     background-color: #022F5A;
 	border-radius: 5px;
 	margin-top: -3px;	
