@@ -164,7 +164,7 @@
                     <h1 class="site-title-little">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"> 
                             <?php //bloginfo( 'name' ); ?>
-                            ТЕРНОПІЛЬСЬКИЙ ДЕРЖАВНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ <div>імені І.Я. Горбачевського</div>
+                            ТЕРНОПІЛЬСЬКИЙ НАЦІОНАЛЬНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ <div>імені І.Я. Горбачевського</div>
                         </a>
                     </h1>
                     <small><?php //bloginfo( 'description' ); ?></small>
@@ -173,7 +173,7 @@
 					<h1 class="site-title">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
                             <?php //bloginfo( 'name' ); ?>
-                            ТЕРНОПІЛЬСЬКИЙ ДЕРЖАВНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ <div>імені І.Я. Горбачевського</div>
+                            ТЕРНОПІЛЬСЬКИЙ НАЦІОНАЛЬНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ <div>імені І.Я. Горбачевського</div>
                         </a>
                     </h1>
 					<small><?php //bloginfo( 'description' ); ?></small>
